@@ -12,7 +12,7 @@ def home():
         # Get the category and top five items from the form
         category = request.form.get("category", "").strip()
         items = [
-            request.form.get(f"item{i}", "").strip() for i in range(1, 6)
+            request.form.get(f"item{i}", "").strip() for i in range(1, 7)
         ]
         # Validate that all inputs are filled
         if category and all(items):
