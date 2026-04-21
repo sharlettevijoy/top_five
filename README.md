@@ -25,3 +25,6 @@ To run the project locally, please use the following commands in your terminal (
 - Sharlette Vijoy
 - Ragav Rajan
 - Ethan Avery
+
+## AI Disclosure
+AI was used to assist with workflow setup.
