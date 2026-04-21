@@ -20,3 +20,8 @@ To run the project locally, please use the following commands in your terminal (
 * pip install -r requirements.txt
 * python app.py
 * Open browser and visit http://127.0.0.1:5000/ (or designated link provided)
+
+## Team Members
+- Sharlette Vijoy
+- Ragav Rajan
+- Ethan Avery
