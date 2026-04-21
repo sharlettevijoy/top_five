@@ -16,3 +16,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Custom - Display Contributor Info
+        run: |
+          echo "👤 Workflow run by: ${{ github.actor }}"
+          echo "📁 Repository: ${{ github.repository }}"
+          echo "🌿 Branch: ${{ github.ref_name }}"
